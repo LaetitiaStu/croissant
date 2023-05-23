@@ -1,0 +1,22 @@
+body {
+    background-color: blanchedalmond;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+}
+ol {
+    text-align: center;
+}
+a {
+    color: black;
+}
+a:hover {
+    color: blue;
+}
+.links .picture {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
