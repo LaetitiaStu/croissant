@@ -15,8 +15,26 @@ a {
 a:hover {
     color: blue;
 }
-.links .picture {
+img {
+    width: 50%;
+        object-fit: cover;
+        height: 300px;
+        border-radius: 5px;
+        box-shadow: 4px 5px rgb(128, 119, 119);
+}
+.links {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+.pictures {
+display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.mail {
+        text-align: center;
+}
+.home {
+    text-align: center;
 }
